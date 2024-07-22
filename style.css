@@ -1,0 +1,30 @@
+/* written by Tsitso Mafantiri */
+
+body {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    font-family: Arial, sans-serif;  
+    background-color: #1551dd;  
+    color: white;  
+}  
+
+watch-container {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  border-radius: 50%; /* Creates a circle */
+  background-color: #ccc; /* Watch background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* For positioning clock within */
+}
+ 
+#clock {
+  font-size: 30px; /* Adjust based on watch size */
+  position: absolute; /* Absolute positioning within watch */
+  top: 50%; /* Centers clock vertically */
+  left: 50%; /* Centers clock horizontally */
+  transform: translate(-50%, -50%); /* Adjust positioning for centering */
+}
